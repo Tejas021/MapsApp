@@ -1,0 +1,63 @@
+.form-body {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.logo {
+  color: slateblue;
+
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+}
+
+.auth {
+  background-color: slateblue;
+}
+
+.r-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+
+.cancel {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  text-align: center;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
